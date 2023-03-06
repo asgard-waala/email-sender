@@ -6,10 +6,10 @@ import smtplib
 email_sender = '11.deepakjha.dj@gmail.com' 
 
 #app password that we had previously generated
-email_password = 'nzotoctmpryjswry' 
+email_password = '' 
 
 #receiver's email address
-email_receiver = 'rlakhotia29@gmail.com'
+email_receiver = ''
 
 #subject of the email
 subject = 'Hey, I am sending this email using Python!'
@@ -24,7 +24,7 @@ If you're interested, please do not hesitate to check out my GitHub profile, whe
 Thank you for taking the time to read this message. Have a great day!
 
 Best regards,
-Deepak
+<Name>
 """
 
 em = EmailMessage()
